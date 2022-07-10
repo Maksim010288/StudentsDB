@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class SQLConnectionFactory{
     DBConfigDTO config;
     PropertiesConfigReader propertiesConfigReader = new PropertiesConfigReader(
-            "src/resources/application.properties");
+            "src/main/resources/application.properties");
 
     public SQLConnectionFactory(DBConfigDTO config) {
         this.config = config;
